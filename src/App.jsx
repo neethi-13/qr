@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { useState , useEffect } from 'react'
 
 import './App.css'
@@ -72,7 +73,9 @@ function App() {
          <button type="button" className='btnQ Generate' disabled={loading} onClick={GenerateQR}>Generate QR code</button>
         <button type="button" className='btnQ Download' onClick={DownloadQR}>Download QR code</button>
       </div> <br />
+      <Analytics />
     </div>
+    
   )
 }
 
