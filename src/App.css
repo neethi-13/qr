@@ -71,3 +71,18 @@ input{
     color: #0ae4bc;
 
 }
+.shortdiv{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    
+   
+}
+.short{
+    background-color: #7297d5;
+    margin-right: 5%;
+    margin-bottom: 15PX;
+}
+.eurl{
+    width: 500px;
+}
