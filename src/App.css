@@ -86,3 +86,13 @@ input{
 .eurl{
     width: 500px;
 }
+
+.linkshort{
+    font-size:medium;
+    cursor: pointer;
+}
+.linkshort:hover{
+    
+    background-color: #2db7b0;
+    color: aliceblue;
+}
