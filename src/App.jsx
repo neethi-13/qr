@@ -88,8 +88,7 @@ function App() {
               },
               {
                 headers: {
-                      Authorization: "Bearer nhyf8mhgOJJPEbzcX5lnGWq3kcQDbRhFDiLwZa9UkBZzNzcT1QhgRZXBlkrP", // <--- Put your TinyURL API key
-                      "Content-Type": "application/json"
+                      Authorization: "Bearer nhyf8mhgOJJPEbzcX5lnGWq3kcQDbRhFDiLwZa9UkBZzNzcT1QhgRZXBlkrP", 
                     }
               }
         );
